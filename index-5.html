@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f1eb" />
+    <meta name="description" content="First Light is a calm, curated morning briefing for the day ahead." />
+    <title>First Light | Your daily briefing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="First Light home"><span class="brand-mark">✳</span><span>first light</span></a>
+        <nav class="topnav" aria-label="Primary navigation">
+          <a class="active" href="#briefing">Today</a>
+          <a href="#essays">Essays</a>
+          <a href="#policy">Tech policy</a>
+        </nav>
+        <button class="icon-button" id="refreshButton" aria-label="Refresh briefing" title="Refresh briefing"><span>↻</span></button>
+      </header>
+
+      <main id="top">
+        <section class="hero" id="briefing">
+          <div class="hero-copy">
+            <p class="eyebrow">Thursday, 17 September 2026 <span class="eyebrow-dot"></span> Issue 042</p>
+            <h1>A clearer start<br />to the day.</h1>
+            <p class="hero-intro">A thoughtful morning brief for what is happening, what it means, and what is worth your attention.</p>
+          </div>
+          <div class="date-control" aria-label="Change briefing date">
+            <button id="previousDay" aria-label="Previous day">←</button>
+            <div><span class="date-label">THU</span><strong id="currentDate">17 SEP</strong></div>
+            <button id="nextDay" aria-label="Next day">→</button>
+          </div>
+        </section>
+
+        <section class="weather-grid section-rule" aria-labelledby="weatherTitle">
+          <div class="section-heading"><span class="section-number">01</span><h2 id="weatherTitle">Morning weather</h2><span class="section-note">Local time · 06:42</span></div>
+          <div class="weather-cards">
+            <article class="weather-card tenali">
+              <div class="weather-card-top"><div><span class="location-kicker">ANDHRA PRADESH, INDIA</span><h3>Tenali</h3></div><span class="weather-symbol">☼</span></div>
+              <div class="temperature"><strong>29°</strong><span>Mostly sunny<br /><small>Feels like 32°</small></span></div>
+              <div class="weather-meta"><span>Humidity <b>68%</b></span><span>Wind <b>11 km/h</b></span><span>High <b>34°</b></span></div>
+            </article>
+            <article class="weather-card geneva">
+              <div class="weather-card-top"><div><span class="location-kicker">CANTON OF GENEVA, SWITZERLAND</span><h3>Geneva</h3></div><span class="weather-symbol">◒</span></div>
+              <div class="temperature"><strong>14°</strong><span>Overcast skies<br /><small>Feels like 13°</small></span></div>
+              <div class="weather-meta"><span>Humidity <b>76%</b></span><span>Wind <b>9 km/h</b></span><span>High <b>19°</b></span></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="headlines section-rule" aria-labelledby="headlineTitle">
+          <div class="section-heading"><span class="section-number">02</span><h2 id="headlineTitle">The world, in brief</h2><span class="section-note" id="headlineCount">6 stories</span></div>
+          <div class="filter-row" role="tablist" aria-label="Filter headlines">
+            <button class="filter active" data-filter="All" role="tab">All</button><button class="filter" data-filter="World" role="tab">World</button><button class="filter" data-filter="India" role="tab">India</button><button class="filter" data-filter="Business" role="tab">Business</button><button class="filter" data-filter="Sports" role="tab">Sports</button><button class="filter" data-filter="Tech" role="tab">Tech</button>
+          </div>
+          <div class="headline-list" id="headlineList"></div>
+        </section>
+
+        <section class="essays section-rule" id="essays" aria-labelledby="essayTitle">
+          <div class="section-heading"><span class="section-number">03</span><h2 id="essayTitle">Two things to read</h2><span class="section-note">Longer thoughts</span></div>
+          <div class="essay-grid">
+            <article class="essay-card essay-literature"><div class="essay-top"><span class="essay-type">Literature</span><span class="read-time">12 min read</span></div><h3>The art of paying attention</h3><p>On the slow, strange pleasure of reading a sentence until it opens a door you did not know was there.</p><div class="essay-footer"><span>By Hermione Lee</span><a href="https://www.nybooks.com/" target="_blank" rel="noreferrer">Read essay ↗</a></div></article>
+            <article class="essay-card essay-world"><div class="essay-top"><span class="essay-type">Ideas · The Atlantic</span><span class="read-time">9 min read</span></div><h3>What a resilient city looks like</h3><p>The places adapting fastest to a changing climate are redesigning the everyday, not waiting for a grand plan.</p><div class="essay-footer"><span>By David Wallace-Wells</span><a href="https://www.theatlantic.com/" target="_blank" rel="noreferrer">Read essay ↗</a></div></article>
+          </div>
+        </section>
+
+        <section class="policy section-rule" id="policy" aria-labelledby="policyTitle">
+          <div class="section-heading"><span class="section-number">04</span><h2 id="policyTitle">Technology policy</h2><span class="section-note">Why it matters</span></div>
+          <div class="policy-layout"><div class="policy-feature"><span class="policy-tag">THE SIGNAL</span><h3>AI rules are moving from principles to practice.</h3><p>Governments are beginning to define the paperwork, testing and accountability that will sit underneath the promises of responsible AI.</p><a class="text-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noreferrer">Follow the signal <span>↗</span></a></div><div class="policy-list"><div><span class="policy-index">A</span><p><b>Model transparency</b><br /><span>What companies may need to disclose about training data and evaluation.</span></p></div><div><span class="policy-index">B</span><p><b>Public sector use</b><br /><span>New guardrails for automated decisions in government services.</span></p></div><div><span class="policy-index">C</span><p><b>Digital sovereignty</b><br /><span>Why compute, chips and cloud infrastructure are policy issues.</span></p></div></div></div>
+        </section>
+      </main>
+
+      <footer class="footer"><div><span class="brand-mark">✳</span> first light</div><p>Made for unhurried mornings.</p><span class="footer-date">17.09.26</span></footer>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite">Briefing refreshed</div>
+    <script src="app.js"></script>
+  </body>
+</html>
