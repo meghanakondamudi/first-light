@@ -26,7 +26,7 @@
       <main id="top">
         <section class="hero" id="briefing">
           <div class="hero-copy">
-            <p class="eyebrow">Thursday, 17 September 2026 <span class="eyebrow-dot"></span> Issue 042</p>
+            <p class="eyebrow"><span id="briefingDate">Thursday, 17 September 2026</span> <span class="eyebrow-dot"></span> <span id="issueNumber">Issue 042</span></p>
             <h1>A clearer start<br />to the day.</h1>
             <p class="hero-intro">A thoughtful morning brief for what is happening, what it means, and what is worth your attention.</p>
           </div>
@@ -40,12 +40,12 @@
         <section class="weather-grid section-rule" aria-labelledby="weatherTitle">
           <div class="section-heading"><span class="section-number">01</span><h2 id="weatherTitle">Morning weather</h2><span class="section-note">Local time · 06:42</span></div>
           <div class="weather-cards">
-            <article class="weather-card tenali">
+            <article class="weather-card tenali" id="tenaliWeather">
               <div class="weather-card-top"><div><span class="location-kicker">ANDHRA PRADESH, INDIA</span><h3>Tenali</h3></div><span class="weather-symbol">☼</span></div>
               <div class="temperature"><strong>29°</strong><span>Mostly sunny<br /><small>Feels like 32°</small></span></div>
               <div class="weather-meta"><span>Humidity <b>68%</b></span><span>Wind <b>11 km/h</b></span><span>High <b>34°</b></span></div>
             </article>
-            <article class="weather-card geneva">
+            <article class="weather-card geneva" id="genevaWeather">
               <div class="weather-card-top"><div><span class="location-kicker">CANTON OF GENEVA, SWITZERLAND</span><h3>Geneva</h3></div><span class="weather-symbol">◒</span></div>
               <div class="temperature"><strong>14°</strong><span>Overcast skies<br /><small>Feels like 13°</small></span></div>
               <div class="weather-meta"><span>Humidity <b>76%</b></span><span>Wind <b>9 km/h</b></span><span>High <b>19°</b></span></div>
@@ -64,8 +64,8 @@
         <section class="essays section-rule" id="essays" aria-labelledby="essayTitle">
           <div class="section-heading"><span class="section-number">03</span><h2 id="essayTitle">Two things to read</h2><span class="section-note">Longer thoughts</span></div>
           <div class="essay-grid">
-            <article class="essay-card essay-literature"><div class="essay-top"><span class="essay-type">Literature</span><span class="read-time">12 min read</span></div><h3>The art of paying attention</h3><p>On the slow, strange pleasure of reading a sentence until it opens a door you did not know was there.</p><div class="essay-footer"><span>By Hermione Lee</span><a href="https://www.nybooks.com/" target="_blank" rel="noreferrer">Read essay ↗</a></div></article>
-            <article class="essay-card essay-world"><div class="essay-top"><span class="essay-type">Ideas · The Atlantic</span><span class="read-time">9 min read</span></div><h3>What a resilient city looks like</h3><p>The places adapting fastest to a changing climate are redesigning the everyday, not waiting for a grand plan.</p><div class="essay-footer"><span>By David Wallace-Wells</span><a href="https://www.theatlantic.com/" target="_blank" rel="noreferrer">Read essay ↗</a></div></article>
+            <article class="essay-card essay-literature" id="literatureEssay"><div class="essay-top"><span class="essay-type">Literature</span><span class="read-time">12 min read</span></div><h3>The art of paying attention</h3><p>On the slow, strange pleasure of reading a sentence until it opens a door you did not know was there.</p><div class="essay-footer"><span>By Hermione Lee</span><a href="https://www.nybooks.com/" target="_blank" rel="noreferrer">Read essay ↗</a></div></article>
+            <article class="essay-card essay-world" id="ideasEssay"><div class="essay-top"><span class="essay-type">Ideas</span><span class="read-time">9 min read</span></div><h3>What a resilient city looks like</h3><p>The places adapting fastest to a changing climate are redesigning the everyday, not waiting for a grand plan.</p><div class="essay-footer"><span>By David Wallace-Wells</span><a href="https://www.theatlantic.com/" target="_blank" rel="noreferrer">Read essay ↗</a></div></article>
           </div>
         </section>
 
@@ -75,7 +75,7 @@
         </section>
       </main>
 
-      <footer class="footer"><div><span class="brand-mark">✳</span> first light</div><p>Made for unhurried mornings.</p><span class="footer-date">17.09.26</span></footer>
+      <footer class="footer"><div><span class="brand-mark">✳</span> first light</div><p>Made for unhurried mornings.</p><span class="footer-date" id="footerDate">17.09.26</span></footer>
     </div>
     <div class="toast" id="toast" role="status" aria-live="polite">Briefing refreshed</div>
     <script src="app.js"></script>
