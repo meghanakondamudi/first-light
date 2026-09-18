@@ -1,0 +1,133 @@
+{
+  "updatedAt": "2026-09-18",
+  "headlines": [
+    {
+      "category": "World",
+      "title": "Canada welcomes EU proposal to become 'associate member'",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "World",
+      "title": "Ninth woman's body found as South African police investigate string of deaths",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "World",
+      "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "India",
+      "title": "Andhra Pradesh Congress party\u2019s Political Affairs Committee to meet in Vijayawada on September 19",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-congress-partys-political-affairs-committee-to-meet-in-vijayawada-on-september-19/article71477304.ece"
+    },
+    {
+      "category": "India",
+      "title": "ED raids 7 locations in Jharkhand State Co-op bank 'fraud' case",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/jharkhand/ed-raids-7-locations-in-jharkhand-state-co-op-bank-fraud-case/article71479266.ece"
+    },
+    {
+      "category": "India",
+      "title": "Defected MPs 'gaddar team', TMC is led by Mamata: Saugata Roy",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/west-bengal/defected-mps-gaddar-team-tmc-is-led-by-mamata-saugata-roy/article71108430.ece"
+    },
+    {
+      "category": "Business",
+      "title": "Healey to ask EU finance ministers to let UK into Made in Europe scheme",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cr6240ej07ejo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "Business",
+      "title": "We bought our \u00a3242,000 home without a deposit - here's how",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cvj64w204y58o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "Business",
+      "title": "Japan raises interest rate to new 31-year high to curb rising prices",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cqn74jeek06no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "Sports",
+      "title": "Bills open new stadium with impressive performance over Lions",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/story/_/id/49969222/buffalo-bills-open-highmark-stadium-dominate-detroit-lions"
+    },
+    {
+      "category": "Sports",
+      "title": "'That place was electric': Bills marvel at new stadium after 41-point night",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/story/_/id/49970295/bills-celebrate-new-highmark-stadium-style-big-win"
+    },
+    {
+      "category": "Sports",
+      "title": "Emotional All-Pro LB Campbell shoulders blame after Lions fail to contain Bills",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/story/_/id/49970421/emotional-all-pro-lb-campbell-shoulders-blame-lions-loss"
+    },
+    {
+      "category": "Tech",
+      "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
+    },
+    {
+      "category": "Tech",
+      "title": "Crusoe raises $3.9B to build massive data centers and small modular \u2018AI factories\u2019",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
+    },
+    {
+      "category": "Tech",
+      "title": "Google DeepMind launches institute to widen the AGI debate",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/"
+    }
+  ],
+  "essays": [
+    {
+      "type": "Literature",
+      "title": "Here are the winners of the 2026 Dayton Literary Peace Prize.",
+      "summary": "Today, the Dayton Literary Peace Prize Foundation, which celebrates \u201cwriters whose work demonstrates the power of the written word to foster peace,\u201d announced the winners of the 2026 Dayton Literary Peace Prize (for books published in 2025)",
+      "author": "Literary Hub",
+      "source": "Literary Hub",
+      "url": "https://lithub.com/here-are-the-winners-of-the-2026-dayton-literary-peace-prize/"
+    },
+    {
+      "type": "Ideas",
+      "title": "Animal eye",
+      "summary": "Probing the biology, beauty and mystery of animal eyes, this short poetic documentary explores an alien world- by Aeon VideoWatch on Aeon",
+      "author": "Aeon Video",
+      "source": "Aeon",
+      "url": "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes"
+    }
+  ],
+  "weather": {
+    "tenali": {
+      "temperature": 35.1,
+      "apparent": 41.9,
+      "humidity": 53,
+      "wind": 7.5,
+      "high": 35.2,
+      "kind": "cloudy",
+      "condition": "Overcast skies"
+    },
+    "geneva": {
+      "temperature": 15.1,
+      "apparent": 14.6,
+      "humidity": 65,
+      "wind": 1.5,
+      "high": 21.8,
+      "kind": "clear",
+      "condition": "Mostly sunny"
+    }
+  }
+}
